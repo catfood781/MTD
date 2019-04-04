@@ -9,32 +9,62 @@ namespace MTDClasses
     [Serializable()]
     public class Domino
     {
+        private int side1;
+        private int side2;
 
         public Domino()
         {
+            side1 = 0;
+            side2 = 0;
         }
 
         public Domino(int p1, int p2)
         {
+            side1 = p1;
+            side2 = p2;
         }
 
         // don't use an auto implemented property because of the validation in the setter - p 390
         public int Side1
         {
+            get { return side1; }
+            set
+            {
+                if (value < 0 || value > 6)
+                {
+                    throw new ArgumentException("Incorrect number of dots");
+                }
+                side1 = value;
+            }
         }
 
 
         public int Side2
         {
+            get { return side2; }
+            set
+            {
+                if (value < 0 || value > 6)
+                {
+                    throw new ArgumentException("Incorrect number of dots");
+                }
+                side2 = value;
+            }
         }
 
         public void Flip()
         {
+            int temp = side1;
+            side1 = side2;
+            side2 = temp;
+            
         }
 
         /// This is how I would have done this in 233N
         public int Score
         {
+            score = side1 + side2;
+            
         }
 
         // because it's a read only property, I can use the "expression bodied syntax" or a lamdba expression - p 393
@@ -43,6 +73,11 @@ namespace MTDClasses
         //ditto for the first version of this method and the next one
         public bool IsDouble()
         {
+            if (side1 == side2)
+            {
+                return true;
+            }
+            return false;
         }
 
         // could you do this one using a lambda expression?
