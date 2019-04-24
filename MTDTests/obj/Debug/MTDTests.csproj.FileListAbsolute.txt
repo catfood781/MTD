@@ -22,3 +22,15 @@ F:\C# Term3\Labs\mexicantraindominos-catfood781\MTD\MTDTests\obj\Debug\MTDTests.
 F:\C# Term3\Labs\mexicantraindominos-catfood781\MTD\MTDTests\obj\Debug\MTDTests.csproj.CopyComplete
 F:\C# Term3\Labs\mexicantraindominos-catfood781\MTD\MTDTests\obj\Debug\MTDTests.dll
 F:\C# Term3\Labs\mexicantraindominos-catfood781\MTD\MTDTests\obj\Debug\MTDTests.pdb
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\MTDTests.dll
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\MTDTests.pdb
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\MTDClasses.dll
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\nunit.framework.dll
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\MTDClasses.pdb
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\nunit.framework.pdb
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\bin\Debug\nunit.framework.xml
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\obj\Debug\MTDTests.csprojAssemblyReference.cache
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\obj\Debug\MTDTests.csproj.CoreCompileInputs.cache
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\obj\Debug\MTDTests.csproj.CopyComplete
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\obj\Debug\MTDTests.dll
+F:\C# Term3\Labs\mexicantraindominos-catfood781\MTDTests\obj\Debug\MTDTests.pdb

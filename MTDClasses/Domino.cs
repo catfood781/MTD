@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace MTDClasses
 {
+    /// <summary>
+    /// Domino class. Establishes a two sided
+    /// domino with dots numbering between 0 
+    /// and 12
+    /// </summary>
     [Serializable()]
     public class Domino
     {

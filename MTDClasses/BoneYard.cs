@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace MTDClasses
 {
+    /// <summary>
+    /// Boneyard Class. Establishes a collection
+    /// of dominos. Methods will shuffle and draw as
+    /// well as tell us if the boneyard is empty
+    ///and how many dominos are remaining. 
+    /// </summary>
     public class BoneYard
     {
         private List<Domino> dList;
